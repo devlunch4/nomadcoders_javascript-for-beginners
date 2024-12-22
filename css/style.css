@@ -14,72 +14,66 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    overflow: hidden;
+    /* 스크롤바가 생기지 않도록 함 */
 }
 
-#clock {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 5rem;
+#login-form,
+#login-form input {
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 #greeting {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 2rem;
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-#todo-form {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
+#clock {
+    font-size: 5rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 #todo-form input {
-    width: 50%;
-    /* 원하는 너비로 조정 */
-    display: block;
-    /* block으로 설정하여 margin 적용 */
-    margin: 0 auto;
-    /* 좌우 가운데 정렬 */
-}
-
-#todo-list {
-    position: absolute;
-    top: 65%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    color: white;
+    font-size: 1rem;
+    width: 300px;
+    color: darkgreen;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-}
-
-#quote {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
     text-align: center;
+}
+
+#todo-list,
+#quote {
+    font-size: 1rem;
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    padding: 10px;
 }
 
 #weather {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    text-align: right;
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+img {
+    width: auto;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
 }
