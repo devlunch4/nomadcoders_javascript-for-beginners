@@ -53,6 +53,19 @@ body {
     padding: 10px;
 }
 
+#reset-button {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: rgba(180, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
 #weather {
     color: white;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -68,8 +81,7 @@ body {
 
 img {
     width: auto;
-    height: auto;
-    display: block;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -77,3 +89,10 @@ img {
     bottom: 0;
     z-index: -1;
 }
+
+@media (min-width: 720px) {
+    img {
+      width: 100%; /* 창 크기가 720px 이상이면 원본 크기 유지 */
+      height: auto;
+    }
+  }
