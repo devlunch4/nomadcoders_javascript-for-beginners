@@ -14,7 +14,8 @@ HTML, CSS, JavaScript를 사용해 간단한 크롬 앱을 만드는 프로젝�
 강의 링크는 아래에서 확인할 수 있습니다.  
 [강의 링크 클릭](https://nomadcoders.co/javascript-for-beginners/lobby)
 
-**This project is based on the Nomad Coders' "Vanilla JS for Chrome Apps" course, using HTML, CSS, and JavaScript to create a simple Chrome app. The main features include simple login, welcome messages, weather information display, and to-do list management.**
+**This project is based on the Nomad Coders' "Vanilla JS for Chrome Apps" course, using HTML, CSS, and JavaScript to create a simple Chrome app.  
+The main features include simple login, welcome messages, weather information display, and to-do list management.**  
 
 **You can find the course link below:**  
 [Click here for the course](https://nomadcoders.co/javascript-for-beginners/lobby)
